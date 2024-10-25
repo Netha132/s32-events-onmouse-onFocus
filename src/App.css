@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  background-color: #2d097b;
+  margin: 20px;
+  border-radius: 10px;
+}
+input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight:800;
+  text-transform: uppercase;
+}
+form label{
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+}
+form div{
+  margin: 20px;
+}
+span{
+  display: inline-block;
+  width: 100px;
+}
+legend{
+  text-align: left;
+  color: #fff;
+}
+.fieldBorder{
+  border: 2px dashed #cff304;
+  margin: 10px;
+  font-weight: 600;
+}
+button{
+  font-size: 1.4em;
+  padding:10px 20px;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+}
+
+.formDiv{
+  background-color: #000;
+  color: #fff;
+}
+button:hover{
+  box-shadow: 3px 3px 10px rgba(128, 118, 118, 0.2);
+}
+.resultPara{
+  color: #fff;
+}
+h2{
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
